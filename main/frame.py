@@ -58,7 +58,7 @@ def API2(target_url):
         
         
 def install():
-    main = "observer_ward.exe"
+    main = "observer_ward"
     f = os.popen('cd Finger &'+main+" -u ")
     data = f.buffer.read().decode(encoding='utf8')  
     #print (data)
